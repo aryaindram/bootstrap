@@ -4,5 +4,46 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     background: url(Laptop.jpg) no-repeat center center fixed;
     background-size: cover;
+}
 
+h1 {
+    font-size: 2rem;
+    color: #e2dbdb;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+    height: 10rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #f05f44;
+    border-color: #f05f44;
+}
+
+.btn-primary:hover {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.text-uppercase {
+    color: black;
 }
